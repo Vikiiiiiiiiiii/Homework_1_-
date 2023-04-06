@@ -8,7 +8,7 @@ public class ConcentrateMilk extends Milk{  // наследуется от кл�
 
     public String toString(){  // переопределение toString
         StringBuilder res = new StringBuilder();
-        res.append("Сгуха: ")
+        res.append("Сгущенка: ")
             .append(super.toString());
         return res.toString();
         

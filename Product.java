@@ -35,5 +35,4 @@ public class Product {
     public String toString(){
         return String.format ("%s : %.2f p." , name, price);
     }
-
 }

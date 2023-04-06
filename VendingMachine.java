@@ -20,7 +20,6 @@ public class VendingMachine {
         return null;
     }
 
-
     public Product sell (String name) throws Exception {    // продажа товара
         Product target = searchProduct(name);
         try{
@@ -43,7 +42,7 @@ public class VendingMachine {
             res.append(item);
             res.append("\n");
         }
-        res.append(String.format("В автомате сейчас %.2f рублей" , money));
+        res.append(String.format("В автомате сейчас: %.2f руб." , money));
         return res.toString();
     }
 }
